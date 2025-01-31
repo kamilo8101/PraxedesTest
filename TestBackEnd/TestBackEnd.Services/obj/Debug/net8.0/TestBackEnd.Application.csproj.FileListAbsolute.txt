@@ -1,0 +1,17 @@
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\bin\Debug\net8.0\TestBackEnd.Application.deps.json
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\bin\Debug\net8.0\TestBackEnd.Application.dll
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\bin\Debug\net8.0\TestBackEnd.Application.pdb
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\bin\Debug\net8.0\TestBackEnd.Domain.dll
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\bin\Debug\net8.0\TestBackEnd.Infrastructure.dll
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\bin\Debug\net8.0\TestBackEnd.Domain.pdb
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\bin\Debug\net8.0\TestBackEnd.Infrastructure.pdb
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\obj\Debug\net8.0\TestBackEnd.Application.csproj.AssemblyReference.cache
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\obj\Debug\net8.0\TestBackEnd.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\obj\Debug\net8.0\TestBackEnd.Application.AssemblyInfoInputs.cache
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\obj\Debug\net8.0\TestBackEnd.Application.AssemblyInfo.cs
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\obj\Debug\net8.0\TestBackEnd.Application.csproj.CoreCompileInputs.cache
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\obj\Debug\net8.0\TestBack.18295668.Up2Date
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\obj\Debug\net8.0\TestBackEnd.Application.dll
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\obj\Debug\net8.0\refint\TestBackEnd.Application.dll
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\obj\Debug\net8.0\TestBackEnd.Application.pdb
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\obj\Debug\net8.0\ref\TestBackEnd.Application.dll

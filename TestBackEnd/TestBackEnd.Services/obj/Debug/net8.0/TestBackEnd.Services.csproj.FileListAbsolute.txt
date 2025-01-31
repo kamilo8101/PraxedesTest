@@ -1,0 +1,11 @@
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\bin\Debug\net8.0\TestBackEnd.Services.deps.json
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\bin\Debug\net8.0\TestBackEnd.Services.dll
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\bin\Debug\net8.0\TestBackEnd.Services.pdb
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\obj\Debug\net8.0\TestBackEnd.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\obj\Debug\net8.0\TestBackEnd.Services.AssemblyInfoInputs.cache
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\obj\Debug\net8.0\TestBackEnd.Services.AssemblyInfo.cs
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\obj\Debug\net8.0\TestBackEnd.Services.csproj.CoreCompileInputs.cache
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\obj\Debug\net8.0\TestBackEnd.Services.dll
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\obj\Debug\net8.0\refint\TestBackEnd.Services.dll
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\obj\Debug\net8.0\TestBackEnd.Services.pdb
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Services\obj\Debug\net8.0\ref\TestBackEnd.Services.dll

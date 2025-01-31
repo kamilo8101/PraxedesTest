@@ -1,0 +1,17 @@
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Infrastructure\bin\Debug\net8.0\TestBackEnd.Infrastructure.deps.json
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Infrastructure\bin\Debug\net8.0\TestBackEnd.Infrastructure.runtimeconfig.json
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Infrastructure\bin\Debug\net8.0\TestBackEnd.Infrastructure.dll
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Infrastructure\bin\Debug\net8.0\TestBackEnd.Infrastructure.pdb
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Infrastructure\bin\Debug\net8.0\TestBackEnd.Domain.dll
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Infrastructure\bin\Debug\net8.0\TestBackEnd.Domain.pdb
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Infrastructure\obj\Debug\net8.0\TestBackEnd.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Infrastructure\obj\Debug\net8.0\TestBackEnd.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Infrastructure\obj\Debug\net8.0\TestBackEnd.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Infrastructure\obj\Debug\net8.0\TestBackEnd.Infrastructure.AssemblyInfo.cs
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Infrastructure\obj\Debug\net8.0\TestBackEnd.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Infrastructure\obj\Debug\net8.0\TestBack.2199C987.Up2Date
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Infrastructure\obj\Debug\net8.0\TestBackEnd.Infrastructure.dll
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Infrastructure\obj\Debug\net8.0\refint\TestBackEnd.Infrastructure.dll
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Infrastructure\obj\Debug\net8.0\TestBackEnd.Infrastructure.pdb
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Infrastructure\obj\Debug\net8.0\TestBackEnd.Infrastructure.genruntimeconfig.cache
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Infrastructure\obj\Debug\net8.0\ref\TestBackEnd.Infrastructure.dll

@@ -1,0 +1,505 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1316A546-E29C-46CE-9BF5-EE057AE106B1}|TestBackEnd.Services\\TestBackEnd.Application.csproj|c:\\users\\juancamilocardonagom\\source\\repos\\testbackend\\testbackend.services\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316A546-E29C-46CE-9BF5-EE057AE106B1}|TestBackEnd.Services\\TestBackEnd.Application.csproj|solutionrelative:testbackend.services\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316A546-E29C-46CE-9BF5-EE057AE106B1}|TestBackEnd.Services\\TestBackEnd.Application.csproj|c:\\users\\juancamilocardonagom\\source\\repos\\testbackend\\testbackend.services\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316A546-E29C-46CE-9BF5-EE057AE106B1}|TestBackEnd.Services\\TestBackEnd.Application.csproj|solutionrelative:testbackend.services\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44B1721-66C1-4937-AB0A-38B067842001}|TestBackEnd\\TestBackEnd.csproj|c:\\users\\juancamilocardonagom\\source\\repos\\testbackend\\testbackend\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44B1721-66C1-4937-AB0A-38B067842001}|TestBackEnd\\TestBackEnd.csproj|solutionrelative:testbackend\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DDAA-1899-447C-B666-9D2F76646CF5}|TestBackEnd.Domain\\TestBackEnd.Domain.csproj|c:\\users\\juancamilocardonagom\\source\\repos\\testbackend\\testbackend.domain\\dtos\\task\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D44DDAA-1899-447C-B666-9D2F76646CF5}|TestBackEnd.Domain\\TestBackEnd.Domain.csproj|solutionrelative:testbackend.domain\\dtos\\task\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DDAA-1899-447C-B666-9D2F76646CF5}|TestBackEnd.Domain\\TestBackEnd.Domain.csproj|c:\\users\\juancamilocardonagom\\source\\repos\\testbackend\\testbackend.domain\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D44DDAA-1899-447C-B666-9D2F76646CF5}|TestBackEnd.Domain\\TestBackEnd.Domain.csproj|solutionrelative:testbackend.domain\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44B1721-66C1-4937-AB0A-38B067842001}|TestBackEnd\\TestBackEnd.csproj|c:\\users\\juancamilocardonagom\\source\\repos\\testbackend\\testbackend\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44B1721-66C1-4937-AB0A-38B067842001}|TestBackEnd\\TestBackEnd.csproj|solutionrelative:testbackend\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316A546-E29C-46CE-9BF5-EE057AE106B1}|TestBackEnd.Services\\TestBackEnd.Application.csproj|c:\\users\\juancamilocardonagom\\source\\repos\\testbackend\\testbackend.services\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316A546-E29C-46CE-9BF5-EE057AE106B1}|TestBackEnd.Services\\TestBackEnd.Application.csproj|solutionrelative:testbackend.services\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DDAA-1899-447C-B666-9D2F76646CF5}|TestBackEnd.Domain\\TestBackEnd.Domain.csproj|c:\\users\\juancamilocardonagom\\source\\repos\\testbackend\\testbackend.domain\\dtos\\filedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D44DDAA-1899-447C-B666-9D2F76646CF5}|TestBackEnd.Domain\\TestBackEnd.Domain.csproj|solutionrelative:testbackend.domain\\dtos\\filedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316A546-E29C-46CE-9BF5-EE057AE106B1}|TestBackEnd.Services\\TestBackEnd.Application.csproj|c:\\users\\juancamilocardonagom\\source\\repos\\testbackend\\testbackend.services\\interfaces\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316A546-E29C-46CE-9BF5-EE057AE106B1}|TestBackEnd.Services\\TestBackEnd.Application.csproj|solutionrelative:testbackend.services\\interfaces\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DDAA-1899-447C-B666-9D2F76646CF5}|TestBackEnd.Domain\\TestBackEnd.Domain.csproj|c:\\users\\juancamilocardonagom\\source\\repos\\testbackend\\testbackend.domain\\enums\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D44DDAA-1899-447C-B666-9D2F76646CF5}|TestBackEnd.Domain\\TestBackEnd.Domain.csproj|solutionrelative:testbackend.domain\\enums\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0470D6E6-8E34-4CF7-948F-C3ED565DB8AE}|TestBackEnd.Infrastructure\\TestBackEnd.Infrastructure.csproj|c:\\users\\juancamilocardonagom\\source\\repos\\testbackend\\testbackend.infrastructure\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0470D6E6-8E34-4CF7-948F-C3ED565DB8AE}|TestBackEnd.Infrastructure\\TestBackEnd.Infrastructure.csproj|solutionrelative:testbackend.infrastructure\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DDAA-1899-447C-B666-9D2F76646CF5}|TestBackEnd.Domain\\TestBackEnd.Domain.csproj|c:\\users\\juancamilocardonagom\\source\\repos\\testbackend\\testbackend.domain\\enums\\typetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D44DDAA-1899-447C-B666-9D2F76646CF5}|TestBackEnd.Domain\\TestBackEnd.Domain.csproj|solutionrelative:testbackend.domain\\enums\\typetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DDAA-1899-447C-B666-9D2F76646CF5}|TestBackEnd.Domain\\TestBackEnd.Domain.csproj|c:\\users\\juancamilocardonagom\\source\\repos\\testbackend\\testbackend.domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D44DDAA-1899-447C-B666-9D2F76646CF5}|TestBackEnd.Domain\\TestBackEnd.Domain.csproj|solutionrelative:testbackend.domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 58,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{80454082-9ab8-47d4-af23-82bf6739e2a9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{80454082-9ab8-47d4-af23-82bf6739e2a9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{80454082-9ab8-47d4-af23-82bf6739e2a9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:29:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:30:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:31:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:32:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:34:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:35:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:36:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:37:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:38:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:39:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:40:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:41:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:43:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:42:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:33:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{80454082-9ab8-47d4-af23-82bf6739e2a9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{80454082-9ab8-47d4-af23-82bf6739e2a9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:23:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:25:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:26:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:28:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:28:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd.Services\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "TestBackEnd.Services\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd.Services\\Services\\UserService.cs",
+              "RelativeToolTip": "TestBackEnd.Services\\Services\\UserService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T18:14:22.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FileDTO.cs",
+              "DocumentMoniker": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd.Domain\\DTOs\\FileDTO.cs",
+              "RelativeDocumentMoniker": "TestBackEnd.Domain\\DTOs\\FileDTO.cs",
+              "ToolTip": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd.Domain\\DTOs\\FileDTO.cs",
+              "RelativeToolTip": "TestBackEnd.Domain\\DTOs\\FileDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:40:36.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IProjectService.cs",
+              "DocumentMoniker": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd.Services\\Interfaces\\IProjectService.cs",
+              "RelativeDocumentMoniker": "TestBackEnd.Services\\Interfaces\\IProjectService.cs",
+              "ToolTip": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd.Services\\Interfaces\\IProjectService.cs",
+              "RelativeToolTip": "TestBackEnd.Services\\Interfaces\\IProjectService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAApwBQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:03:13.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "TestBackEnd\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "TestBackEnd\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAtwDYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:02:06.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd.Services\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "TestBackEnd.Services\\Services\\TaskService.cs",
+              "ToolTip": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd.Services\\Services\\TaskService.cs",
+              "RelativeToolTip": "TestBackEnd.Services\\Services\\TaskService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAuwA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:02:06.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskDTO.cs",
+              "DocumentMoniker": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd.Domain\\DTOs\\Task\\TaskDTO.cs",
+              "RelativeDocumentMoniker": "TestBackEnd.Domain\\DTOs\\Task\\TaskDTO.cs",
+              "ToolTip": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd.Domain\\DTOs\\Task\\TaskDTO.cs",
+              "RelativeToolTip": "TestBackEnd.Domain\\DTOs\\Task\\TaskDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:28:41.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd.Infrastructure\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "TestBackEnd.Infrastructure\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd.Infrastructure\\AutoMapperProfile.cs",
+              "RelativeToolTip": "TestBackEnd.Infrastructure\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:24:13.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "State.cs",
+              "DocumentMoniker": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd.Domain\\Enums\\State.cs",
+              "RelativeDocumentMoniker": "TestBackEnd.Domain\\Enums\\State.cs",
+              "ToolTip": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd.Domain\\Enums\\State.cs",
+              "RelativeToolTip": "TestBackEnd.Domain\\Enums\\State.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:23:09.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TypeTask.cs",
+              "DocumentMoniker": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd.Domain\\Enums\\TypeTask.cs",
+              "RelativeDocumentMoniker": "TestBackEnd.Domain\\Enums\\TypeTask.cs",
+              "ToolTip": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd.Domain\\Enums\\TypeTask.cs",
+              "RelativeToolTip": "TestBackEnd.Domain\\Enums\\TypeTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:08:20.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd.Domain\\Entities\\Project.cs",
+              "RelativeDocumentMoniker": "TestBackEnd.Domain\\Entities\\Project.cs",
+              "ToolTip": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd.Domain\\Entities\\Project.cs",
+              "RelativeToolTip": "TestBackEnd.Domain\\Entities\\Project.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:06:53.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "TestBackEnd\\Controllers\\ProjectController.cs",
+              "ToolTip": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "TestBackEnd\\Controllers\\ProjectController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:01:54.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd.Domain\\Interfaces\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "TestBackEnd.Domain\\Interfaces\\IBaseRepository.cs",
+              "ToolTip": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd.Domain\\Interfaces\\IBaseRepository.cs",
+              "RelativeToolTip": "TestBackEnd.Domain\\Interfaces\\IBaseRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwCsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:00:21.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd.Services\\Services\\ProjectService.cs",
+              "RelativeDocumentMoniker": "TestBackEnd.Services\\Services\\ProjectService.cs",
+              "ToolTip": "C:\\Users\\JuanCamiloCardonaGom\\source\\repos\\TestBackEnd\\TestBackEnd.Services\\Services\\ProjectService.cs",
+              "RelativeToolTip": "TestBackEnd.Services\\Services\\ProjectService.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAAwLMAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T15:49:21.521Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e3fc08be-3924-11db-8af6-b622a1ef5492}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Domain\bin\Debug\net8.0\TestBackEnd.Domain.deps.json
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Domain\bin\Debug\net8.0\TestBackEnd.Domain.dll
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Domain\bin\Debug\net8.0\TestBackEnd.Domain.pdb
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Domain\obj\Debug\net8.0\TestBackEnd.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Domain\obj\Debug\net8.0\TestBackEnd.Domain.AssemblyInfoInputs.cache
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Domain\obj\Debug\net8.0\TestBackEnd.Domain.AssemblyInfo.cs
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Domain\obj\Debug\net8.0\TestBackEnd.Domain.csproj.CoreCompileInputs.cache
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Domain\obj\Debug\net8.0\TestBackEnd.Domain.dll
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Domain\obj\Debug\net8.0\refint\TestBackEnd.Domain.dll
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Domain\obj\Debug\net8.0\TestBackEnd.Domain.pdb
+C:\Users\JuanCamiloCardonaGom\source\repos\TestBackEnd\TestBackEnd.Domain\obj\Debug\net8.0\ref\TestBackEnd.Domain.dll

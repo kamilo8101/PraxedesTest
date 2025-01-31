@@ -1,0 +1,151 @@
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+<div class="container" *ngIf="CanCreate">
+    <div class="row">
+      <div class="col">
+        <h2>Agregar Tarea</h2>
+      </div>
+    </div>
+
+    <form [formGroup]="taskForm" (ngSubmit)="onSubmit()">
+        <div class="form-group mb-3">
+            <label class="form-label" for="taskTitle">Título de la Tarea</label>
+            <input type="text" class="form-control" id="taskTitle" formControlName="name" placeholder="Ingrese el título de la tarea" required [ngClass]="{'border border-danger': taskForm.get('name')?.invalid && (taskForm.get('name')?.touched || taskForm.get('name')?.dirty)}">
+            <div *ngIf="taskForm.get('name')?.invalid && (taskForm.get('name')?.touched || taskForm.get('name')?.dirty)" class="text-danger">
+                <small *ngIf="taskForm.get('name')?.errors?.['required']">El título es obligatorio.</small>
+            </div>
+        </div>
+        <div class="form-group mb-3">
+            <label class="form-label" for="taskDescription">Descripción</label>
+            <div class="col-sm-10">
+                <textarea class="form-control" id="taskDescription" formControlName="description" rows="3" placeholder="Ingrese la descripción de la tarea" required [ngClass]="{'border border-danger': taskForm.get('description')?.invalid && (taskForm.get('description')?.touched || taskForm.get('description')?.dirty)}"></textarea>
+                <div *ngIf="taskForm.get('description')?.invalid && (taskForm.get('description')?.touched || taskForm.get('description')?.dirty)" class="text-danger">
+                    <small *ngIf="taskForm.get('description')?.errors?.['required']">La descripción es obligatoria.</small>
+                </div>
+            </div>
+        </div>
+        <div class="form-group mb-3">
+            <label class="form-label" for="taskState">Estado</label>
+            <div class="col-sm-10">
+                <select class="form-control" id="taskState" formControlName="state" required [ngClass]="{'border border-danger': taskForm.get('state')?.invalid && (taskForm.get('state')?.touched || taskForm.get('state')?.dirty)}">
+                    <option value="" disabled selected>Seleccione un estado</option>
+                    <option value="1">Activa</option>
+                </select>
+                <div *ngIf="taskForm.get('state')?.invalid && (taskForm.get('state')?.touched || taskForm.get('state')?.dirty)" class="text-danger">
+                    <small *ngIf="taskForm.get('state')?.errors?.['required']">El estado es obligatorio.</small>
+                </div>
+            </div>
+        </div>
+        <div class="form-group mb-3">
+            <label class="form-label" for="taskType">Tipo</label>
+            <div class="col-sm-10">
+                <select class="form-control" id="taskType" formControlName="type" required (change)="onTypeChange()" [ngClass]="{'border border-danger': taskForm.get('type')?.invalid && (taskForm.get('type')?.touched || taskForm.get('type')?.dirty)}">
+                    <option value="" disabled selected>Seleccione un tipo</option>
+                    <option value="2">Desarrollo</option>
+                    <option value="3">Prueba</option>
+                    <option value="4">Bug</option>
+                </select>
+                <div *ngIf="taskForm.get('type')?.invalid && (taskForm.get('type')?.touched || taskForm.get('type')?.dirty)" class="text-danger">
+                    <small *ngIf="taskForm.get('type')?.errors?.['required']">El tipo es obligatorio.</small>
+                </div>
+            </div>
+        </div>
+        <div class="form-group mb-3">
+            <label class="form-label" for="taskUser">Usuario</label>
+            <div class="col-sm-10">
+                <select class="form-control" id="taskUser" formControlName="userid" required [ngClass]="{'border border-danger': taskForm.get('userid')?.invalid && (taskForm.get('userid')?.touched || taskForm.get('userid')?.dirty)}">
+                    <option value="" disabled selected>Seleccione un usuario</option>
+                    <option *ngFor="let user of users" [value]="user.id">{{ user.value }}</option>
+                </select>
+                <div *ngIf="taskForm.get('userid')?.invalid && (taskForm.get('userid')?.touched || taskForm.get('userid')?.dirty)" class="text-danger">
+                    <small *ngIf="taskForm.get('userid')?.errors?.['required']">El usuario es obligatorio.</small>
+                </div>
+            </div>
+        </div>
+        <div class="form-group mb-3">
+            <label class="form-label" for="startDate">Fecha de Inicio</label>
+            <input type="date" class="form-control" id="startDate" formControlName="startDate" required [ngClass]="{'border border-danger': taskForm.get('startDate')?.invalid && (taskForm.get('startDate')?.touched || taskForm.get('startDate')?.dirty)}">
+            <div *ngIf="taskForm.get('startDate')?.invalid && (taskForm.get('startDate')?.touched || taskForm.get('startDate')?.dirty)" class="text-danger">
+                <small *ngIf="taskForm.get('startDate')?.errors?.['required']">La fecha de inicio es obligatoria.</small>
+            </div>
+        </div>
+        <div class="form-group mb-3">
+            <label class="form-label" for="endDate">Fecha de Fin</label>
+            <input type="date" class="form-control" id="endDate" formControlName="endDate" [ngClass]="{'border border-danger': taskForm.get('endDate')?.invalid && (taskForm.get('endDate')?.touched || taskForm.get('endDate')?.dirty)}">
+        </div>
+        <button type="submit" class="btn btn-primary me-2">Agregar Tarea</button>
+        <button type="button" class="btn btn-danger" [routerLink]="['/project']" >Cancelar</button>
+    </form>
+</div>
+
+<hr>
+
+<div class="container">
+<div id="timeline-1" class="">
+		<div class="row">
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+				<div *ngFor="let item of timelineItems" class="timeline-container">
+					<div class="timeline-label">
+						<span class="label label-primary arrowed-in-right label-lg">
+							<b>{{ item.startDate | date:'dd/MM/yyyy' }}</b>
+						</span>
+					</div>
+
+					<div class="timeline-items">
+						<div  class="timeline-item clearfix">
+							<div class="timeline-info">
+								<i class="timeline-indicator ace-icon btn" [ngClass]="item.icon"></i>
+							</div>
+
+							<div class="widget-box" [ngClass]="item.color">
+								<div class="widget-header widget-header-small">
+									<h5 class="widget-title smaller">{{ item.name }}</h5>
+
+									<span class="widget-toolbar no-border">
+										<i class="ace-icon fa fa-clock-o bigger-110"></i>
+										{{ item.time }}
+									</span>
+								</div>
+
+								<div class="widget-body">
+									<div class="widget-main">
+										{{ item.description }}
+										<div class="space-6"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><!-- /.timeline-items -->
+				</div><!-- /.timeline-container -->
+
+				<!-- <div class="timeline-container">
+					<div class="timeline-items">
+						<div class="timeline-item clearfix">
+							<div class="timeline-info">
+								<i class="timeline-indicator ace-icon fa fa-bug btn btn-danger no-hover"></i>
+							</div>
+
+							<div class="widget-box widget-color-red2">
+								<div class="widget-header widget-header-small">
+									<h5 class="widget-title smaller">Critical security patch released</h5>
+
+									<span class="widget-toolbar no-border">
+										<i class="ace-icon fa fa-clock-o bigger-110"></i>
+										9:15
+									</span>
+								</div>
+
+								<div class="widget-body">
+									<div class="widget-main">
+										Please download the new patch for maximum security.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> -->
+
+			</div>
+		</div>
+	</div>
+</div>

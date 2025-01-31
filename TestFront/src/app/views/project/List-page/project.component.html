@@ -1,0 +1,63 @@
+<div class="container">
+  <div class="row mb-4">
+    <div class="col">
+      <h1>Proyectos</h1>
+    </div>
+    <div class="col text-end" *ngIf="CanCreate">
+      
+      <button class="btn btn-success me-2" (click)="downloadReport()">
+        <i class="bi bi-file-earmark-excel" ></i> Exportar excel
+      </button>
+
+      <button class="btn btn-primary" [routerLink]="['./create']">
+        <i class="bi bi-plus-circle"></i> Nuevo Proyecto
+      </button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Descripción</th>
+              <!-- <th>Fecha de Creación</th> -->
+              <th>Estado</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of ListProject">
+              <td>{{item.name}}</td>
+              <td>{{item.description}}</td>
+              <!-- <td>{{item.creationDate | date:'dd/MM/yyyy'}}</td> -->
+              <td>
+                <span class="badge" [ngClass]="{'bg-success': item.state === 1, 
+                                              'bg-danger': item.state === 0}">
+                  {{item.state === 1 ? 'Activo' : 'Inactivo'}}
+                </span>
+              </td>
+              <td>
+                <button class="btn btn-sm btn-info me-2" [routerLink]="['./edit', item.id ]" *ngIf="CanCreate">
+                  <i class="bi bi-pencil"></i>
+                </button>
+                
+                <button class="btn btn-sm btn-danger me-2" (click)="onDelete(item.id)" *ngIf="CanCreate">
+                  <i class="bi bi-trash"></i>
+                </button>
+
+                <button class="btn btn-sm btn-success" [routerLink]="['/task', item.id ]">
+                  <i class="bi bi-list-task"></i>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+

@@ -1,0 +1,347 @@
+body{margin-top:20px;}
+
+.timeline-container {
+    position: relative;
+    padding-top: 4px;
+    margin-bottom: 32px
+}
+
+.timeline-container:last-child {
+    margin-bottom: 0
+}
+
+.timeline-container:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 28px;
+    top: 0;
+    bottom: 0;
+    border: 1px solid #E2E3E7;
+    background-color: #E7EAEF;
+    width: 4px;
+    border-width: 0 1px
+}
+
+.timeline-container:first-child:before {
+    border-top-width: 1px
+}
+
+.timeline-container:last-child:before {
+    border-bottom-width: 1px
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 8px
+}
+
+.timeline-item .widget-box {
+    background-color: #F2F6F9;
+    color: #595C66
+}
+
+.timeline-item .transparent.widget-box {
+    border-left: 3px solid #DAE1E5
+}
+
+.timeline-item .transparent .widget-header {
+    background-color: #ECF1F4;
+    border-bottom-width: 0
+}
+
+.timeline-item .transparent .widget-header>.widget-title {
+    margin-left: 8px
+}
+
+.timeline-item .widget-box {
+    margin: 0 0 0 60px;
+    position: relative;
+    max-width: none
+}
+
+.timeline-item .widget-main {
+    margin: 0;
+    position: relative;
+    max-width: none;
+    border-bottom-width: 0
+}
+
+.timeline-item .widget-body {
+    background-color: transparent
+}
+
+.timeline-info {
+    float: left;
+    width: 60px;
+    text-align: center;
+    position: relative
+}
+
+.timeline-container:not(.timeline-style2) .timeline-indicator {
+    opacity: 1;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 16px;
+    height: 36px;
+    line-height: 30px;
+    width: 36px;
+    text-align: center;
+    text-shadow: none!important;
+    padding: 0;
+    cursor: default;
+    border: 3px solid #FFF!important
+}
+
+.timeline-label {
+    display: block;
+    clear: both;
+    margin: 0 0 18px 34px
+}
+
+.widget-box {
+    padding: 0;
+    box-shadow: none;
+    margin: 3px 0;
+    border: 1px solid #CCC
+}
+
+.widget-header {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: relative;
+    min-height: 38px;
+    background: repeat-x #f7f7f7;
+    background-image: -webkit-linear-gradient(top, #FFF 0, #EEE 100%);
+    background-image: -o-linear-gradient(top, #FFF 0, #EEE 100%);
+    background-image: linear-gradient(to bottom, #FFF 0, #EEE 100%);  
+    border-bottom: 1px solid #DDD;
+    padding-left: 12px
+}
+
+
+.widget-header:after,
+.widget-header:before {
+    content: "";
+    display: table;
+    line-height: 0
+}
+
+.widget-header:after {
+    clear: right
+}
+
+.widget-header-small {
+    min-height: 31px;
+    padding-left: 10px
+}
+
+.widget-header>.widget-title {
+    line-height: 36px;
+    padding: 0;
+    margin: 0;
+    display: inline
+}
+
+.widget-header-small>.widget-title {
+    line-height: 30px
+}
+
+.widget-toolbar {
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 37px;
+    float: right;
+    position: relative
+}
+
+.widget-header-small>.widget-toolbar {
+    line-height: 29px
+}
+
+.widget-toolbar:before {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    top: 3px;
+    bottom: 3px;
+    left: -1px;
+    border: 1px solid #D9D9D9;
+    border-width: 0 1px 0 0
+}
+
+.popover-notitle+.popover .popover-title,
+.popover.popover-notitle .popover-title,
+.widget-toolbar.no-border:before {
+    display: none
+}
+
+[class*=widget-color-]>.widget-header>.widget-toolbar:before {
+    border-color: #EEE
+}
+
+.widget-body {
+    background-color: #FFF
+}
+
+.widget-main {
+    padding: 12px
+}
+
+.widget-box[class*=widget-color-]>.widget-header {
+    color: #FFF;
+    // filter: progid: DXImageTransform.Microsoft.gradient(enabled=false)
+}
+
+.widget-color-blue {
+    border-color: #307ECC
+}
+
+.widget-color-blue>.widget-header {
+    background: #307ECC;
+    border-color: #307ECC
+}
+
+.widget-color-blue2 {
+    border-color: #5090C1
+}
+
+.widget-color-blue2>.widget-header {
+    background: #5090C1;
+    border-color: #5090C1
+}
+
+.widget-color-blue3 {
+    border-color: #6379AA
+}
+
+.widget-color-blue3>.widget-header {
+    background: #6379AA;
+    border-color: #6379AA
+}
+
+.widget-color-green {
+    border-color: #82AF6F
+}
+
+.widget-color-green>.widget-header {
+    background: #82AF6F;
+    border-color: #82AF6F
+}
+
+.widget-color-green2 {
+    border-color: #2E8965
+}
+
+.widget-color-green2>.widget-header {
+    background: #2E8965;
+    border-color: #2E8965
+}
+
+.widget-color-green3 {
+    border-color: #4EBC30
+}
+
+.widget-color-green3>.widget-header {
+    background: #4EBC30;
+    border-color: #4EBC30
+}
+
+.widget-color-red {
+    border-color: #E2755F
+}
+
+.widget-color-red>.widget-header {
+    background: #E2755F;
+    border-color: #E2755F
+}
+
+.widget-color-red2 {
+    border-color: #E04141
+}
+
+.widget-color-red2>.widget-header {
+    background: #E04141;
+    border-color: #E04141
+}
+
+.widget-color-red3 {
+    border-color: #D15B47
+}
+
+.widget-color-red3>.widget-header {
+    background: #D15B47;
+    border-color: #D15B47
+}
+
+.widget-color-purple {
+    border-color: #7E6EB0
+}
+
+.widget-color-purple>.widget-header {
+    background: #7E6EB0;
+    border-color: #7E6EB0
+}
+
+.widget-color-pink {
+    border-color: #CE6F9E
+}
+
+.widget-color-pink>.widget-header {
+    background: #CE6F9E;
+    border-color: #CE6F9E
+}
+
+.widget-color-orange {
+    border-color: #E8B10D
+}
+
+.widget-color-orange>.widget-header {
+    color: #855D10!important;
+    border-color: #E8B10D;
+    background: #FFC657
+}
+
+.widget-color-dark {
+    border-color: #5a5a5a
+}
+
+.widget-color-dark>.widget-header {
+    border-color: #666;
+    background: #404040
+}
+
+.widget-color-grey {
+    border-color: #9e9e9e
+}
+
+.widget-color-grey>.widget-header {
+    border-color: #aaa;
+    background: #848484
+}
+
+.widget-box.transparent {
+    border-width: 0
+}
+
+.widget-box.transparent>.widget-header {
+    background: 0 0;
+    border-width: 0;
+    border-bottom: 1px solid #DCE8F1;
+    color: #4383B4;
+    padding-left: 3px
+}
+
+.widget-box.transparent>.widget-header-large {
+    padding-left: 5px
+}
+
+.widget-box.transparent>.widget-header-small {
+    padding-left: 1px
+}
+
+.widget-box.transparent>.widget-body {
+    border-width: 0;
+    background-color: transparent
+}

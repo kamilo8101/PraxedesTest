@@ -1,0 +1,49 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h2>{{ projectForm.get('id')?.value ? 'Editar Proyecto' : 'Crear Proyecto' }}</h2>
+    </div>
+  </div>
+  <form [formGroup]="projectForm" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label for="name" class="form-label">Nombre</label>
+      <input type="text" id="name" class="form-control" formControlName="name">
+      <div *ngIf="projectForm.get('name')?.invalid && projectForm.get('name')?.touched" class="text-danger">
+        El nombre es requerido.
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="description" class="form-label">Descripción</label>
+      <textarea id="description" class="form-control" formControlName="description"></textarea>
+      <div *ngIf="projectForm.get('description')?.invalid && projectForm.get('description')?.touched" class="text-danger">
+        La descripción es requerida.
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="state" class="form-label">Estado</label>
+      <select id="state" class="form-control" formControlName="state">
+        <option value="">Seleccione un estado</option>
+        <option value="1">Activo</option>
+        <option value="0">Inactivo</option>
+      </select>
+      <div *ngIf="projectForm.get('state')?.invalid && projectForm.get('state')?.touched" class="text-danger">
+        El estado es requerido.
+      </div>
+    </div>
+
+    <div class="form-group mb-3">
+        <label class="form-label" for="startDate">Fecha de Inicio</label>
+        <input type="date" class="form-control" id="startDate" formControlName="startDate" required>
+    </div>
+    <div class="form-group mb-3">
+        <label class="form-label" for="endDate">Fecha de Fin</label>
+        <input type="date" class="form-control" id="endDate" formControlName="endDate" required>
+    </div>
+
+    <button type="submit" class="btn btn-primary me-2">
+      {{ projectForm.get('id')?.value ? 'Actualizar' : 'Crear' }}
+    </button> 
+    <button class="btn btn-danger" [routerLink]="['/project']">Cancelar</button>
+  </form>
+</div>
+
